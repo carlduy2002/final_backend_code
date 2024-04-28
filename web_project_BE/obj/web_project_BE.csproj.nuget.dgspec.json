@@ -49,14 +49,6 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
-            "IronPython": {
-              "target": "Package",
-              "version": "[3.4.1, )"
-            },
-            "IronPython.StdLib": {
-              "target": "Package",
-              "version": "[3.4.1, )"
-            },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -107,10 +99,6 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
-            "OpenAI": {
-              "target": "Package",
-              "version": "[1.7.2, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -118,10 +106,6 @@
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[5.0.0, )"
-            },
-            "pythonnet": {
-              "target": "Package",
-              "version": "[3.0.3, )"
             }
           },
           "imports": [
