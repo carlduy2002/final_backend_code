@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "AQgqPwtzimk2KO1EB1/0XmVe4Do7cIu8io7idE7CLJE=",
+  "Source": "web_project_BE",
+  "BasePath": "_content/web_project_BE",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "web_project_BE\\wwwroot",
+      "Source": "web_project_BE",
+      "ContentRoot": "D:\\Learning\\TopUp\\Graduation_Project_(COMP1682)\\Term 2\\web_project_BE\\web_project_BE\\wwwroot\\",
+      "BasePath": "_content/web_project_BE",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
