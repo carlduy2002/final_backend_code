@@ -18,26 +18,6 @@ namespace web_project_BE.Controllers
 
         public StatisticalController(ApplicationDbContext context) => _context = context;
 
-        //[HttpGet("GetOrderInMonth")]
-        //public async Task<IActionResult> GetOrderInMonth(int month, int year)
-        //{
-        //    if (month == null)
-        //        return BadRequest(new { Message = "The month is invalid!" });
-
-        //    if(year == null)
-        //        return BadRequest(new { Message = "The year is invalid!" });
-
-        //    if (!string.IsNullOrEmpty(CheckMonthValid(month)))
-        //        return BadRequest(new { Message = CheckMonthValid(month).ToString() });
-
-        //    if (!string.IsNullOrEmpty(CheckYearValid(year)))
-        //        return BadRequest(new { Message = CheckYearValid(year).ToString() });
-
-        //    var countOrder = _context.Orders.Where(o => o.order_date.Month == month && o.order_date.Year == year).ToList();
-
-        //    return Ok(countOrder);
-        //}
-
         [HttpGet("GetTotalOrderInYear")]
         public async Task<IActionResult> GetTotalOrderInYear(int year)
         {

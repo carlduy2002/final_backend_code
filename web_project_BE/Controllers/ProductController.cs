@@ -4,19 +4,16 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Scripting.Runtime;
 using Neo4jClient.DataAnnotations.Cypher.Functions;
 using System.Text;
 using System.Text.RegularExpressions;
 using web_project_BE.Data;
 using web_project_BE.Models;
 using System;
-using static IronPython.Modules.PythonIterTools;
 using System.Drawing;
 using System.Security.Cryptography;
 using web_project_BE.Helper;
 using IEmailService = web_project_BE.UtilityServices.IEmailService;
-using static IronPython.Modules._ast;
 
 namespace web_project_BE.Controllers
 {

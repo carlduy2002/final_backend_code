@@ -6,8 +6,6 @@ using System.Security.Cryptography;
 using web_project_BE.Data;
 using web_project_BE.Helper;
 using web_project_BE.Models;
-using static IronPython.Modules._ast;
-using static IronPython.Modules.PythonIterTools;
 using IEmailService = web_project_BE.UtilityServices.IEmailService;
 
 namespace web_project_BE.Controllers

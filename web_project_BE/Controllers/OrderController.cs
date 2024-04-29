@@ -7,12 +7,10 @@ using web_project_BE.Data;
 using web_project_BE.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
-using static IronPython.Modules._ast;
 using System.CodeDom;
 using System.Security.Cryptography;
 using web_project_BE.Helper;
 using IEmailService = web_project_BE.UtilityServices.IEmailService;
-using Microsoft.Scripting.Runtime;
 
 
 namespace web_project_BE.Controllers
