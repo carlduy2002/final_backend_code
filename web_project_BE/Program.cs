@@ -7,8 +7,6 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Microsoft.Extensions.FileProviders;
 using System.Text.Json.Serialization;
-using Python.Runtime;
-using web_project_BE.Configurations;
 using web_project_BE.UtilityServices;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -95,11 +93,6 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-builder.Services.Configure<OpenAiConfig>(builder.Configuration.GetSection("OpenAI"));
-
-builder.Services.AddScoped<IOpenAiService, OpenAiService>();
-
-
 
 var app = builder.Build();
 
@@ -130,8 +123,6 @@ app.UseEndpoints(endpoints =>
 });
 
 app.MapControllers();
-
-PythonEngine.Shutdown();
 
 app.UseStaticFiles(new StaticFileOptions
 {
